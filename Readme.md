@@ -8,7 +8,7 @@ Notably:
 - indico to parse keywords and intent of tweets
 
 Install a bunch of things, I recommed using a separate environment running python 2
-- torch / Lua 
+- download torch / Lua 
 - run this command, this will take a pretty long time to run though. 
 ```
 $ th train.lua -data_dir data/Obama -rnn_size 512 -num_layers 2 -dropout 0.5
