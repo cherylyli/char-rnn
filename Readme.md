@@ -1,4 +1,6 @@
 #ObamaBot
+Tweet at ObamaBot at @PseudoObamaBot! For best responses tweet political topics.
+
 I used a recurrent neural net with 2 hidden layers, a dropout rate of 0.5, and rnn size of 521. A 1.5MB text file of Obama speeches to generate Obama-Style speeches. Then I used a Markov Twitter bot to read from the output of the Obama-Style speeches and generate short tweets with certain keywords that Donald Trump supporters tweet out.
 
 Used a bunch of pre-existing libraries. 
