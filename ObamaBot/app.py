@@ -24,18 +24,26 @@ tweetbot.twitter_login(cons_key, cons_secret, access_token, access_token_secret)
 
 while True:
 	targetString = "DonaldTrump"
-	keywords = []
+
+
+
+	keywords = ['ban']
 
 	prefix = None
 	suffix = "#ObamaBot"
-	maxconvdepth = 5
+	# maxconvdepth = 5
 
 
-	tweetbot.twitter_autoreply_start(targetString, keywords=keywords, prefix=prefix, suffix=suffix, maxconvdepth=maxconvdepth)
-	tweetbot.twitter_tweeting_start(days=0, hours=0, minutes=30, keywords=None, prefix=None, suffix=suffix)
+	#tweetbot.twitter_autoreply_start(targetString, keywords=keywords, prefix=prefix, suffix=suffix, maxconvdepth=maxconvdepth)
+	tweetbot.twitter_tweeting_start(days=0, hours=0, minutes=10, keywords=keywords, prefix=None, suffix=suffix)
  
- 	time.sleep(100)
- 	print("hello")
+
+ 	time.sleep(60)
+ 
+
+
+
 	# Use the following to stop auto-responding
 	# (Don't do this directly after starting it, or your bot will do nothing!)
 	tweetbot.twitter_autoreply_stop()
+	time.sleep(60)
