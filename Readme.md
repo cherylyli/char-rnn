@@ -3,9 +3,9 @@ I used a recurrent neural net with 2 hidden layers, a dropout rate of 0.5, and r
 
 Used a bunch of pre-existing libraries. 
 Notably:
-*char-rnn for the recurrent neural net
-*
-*indico to parse keywords and intent of tweets
+- char-rnn for the recurrent neural net
+- using pseudoObama-Style text as input to respond to keywords extracted from Donald Trump's tweets
+- indico to parse keywords and intent of tweets
 
 
 
