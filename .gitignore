@@ -1,2 +1,4 @@
 *.t7
 setuptools-33.1.1.zip/
+config.py
+config.pyc
