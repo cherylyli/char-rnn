@@ -1,4 +1,6 @@
 #ObamaBot
+Tweet at ObamaBot at @PseudoObamaBot! For best responses tweet political topics.
+
 I used a recurrent neural net with 2 hidden layers, a dropout rate of 0.5, and rnn size of 521. A 1.5MB text file of Obama speeches to generate Obama-Style speeches. Then I used a Markov Twitter bot to read from the output of the Obama-Style speeches and generate short tweets with certain keywords that Donald Trump supporters tweet out.
 
 Used a bunch of pre-existing libraries. 
@@ -8,7 +10,7 @@ Notably:
 - indico to parse keywords and intent of tweets
 
 Install a bunch of things, I recommed using a separate environment running python 2
-- torch / Lua 
+- download torch / Lua 
 - run this command, this will take a pretty long time to run though. 
 ```
 $ th train.lua -data_dir data/Obama -rnn_size 512 -num_layers 2 -dropout 0.5
